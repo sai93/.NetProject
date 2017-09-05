@@ -1,0 +1,9 @@
+Admin Previleges to User _/
+
+Last Login DateTime
+
+Who should change Application edit, User or Admin
+
+Change Password.
+
+In Users Display only Application Name

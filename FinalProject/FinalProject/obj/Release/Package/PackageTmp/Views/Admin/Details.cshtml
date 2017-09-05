@@ -1,0 +1,80 @@
+﻿@model IEnumerable<ErrorLogModel.ErrorLog>
+<p>
+    @Html.ActionLink("Back", "ShowApplications", new { area = "" }, new { @class = "but" })
+</p>
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.." title="Type in a name">
+
+<input type="checkbox" id="desc">:Description
+
+<input type="checkbox" id="time">:Time
+
+<input type="checkbox" id="log">:LogType
+
+
+<div class="Admin">
+    <table class="table" id="table">
+        <tr>
+            <th>
+                <button onclick="sortName()" class="but">@Html.DisplayNameFor(model => model.Name)</button>
+            </th>
+            <th>
+                <button onclick="sortDes()" class="but">@Html.DisplayNameFor(model => model.Description)</button>
+            </th>
+            <th>
+                <button onclick="sortTime()" class="but">@Html.DisplayNameFor(model => model.TimeStamp)</button>
+            </th>
+            <th>
+                <button onclick="sortApp()" class="but">@Html.DisplayNameFor(model => model.Application.ApplicationName)</button>
+            </th>
+            <th>
+                <button onclick="sortLog()" class="but">@Html.DisplayNameFor(model => model.LogType.Types)</button>
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TimeStamp)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Application.ApplicationName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LogType.Types)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+
+
+@if (Model.Count() > 0)
+{
+<img src="@Url.Action("MyChart")" alt="SimpleChart" />
+
+<img src="@Url.Action("DispPie")" alt="Simple" />
+}
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\LoadersAndLogic.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\LoadersAndLogic.pdb
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\EntityFramework.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\log4net.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\Newtonsoft.Json.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\ErrorLogModel.pdb
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\EntityFramework.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\log4net.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\bin\Release\Newtonsoft.Json.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\obj\Release\LoadersAndLogic.csprojResolveAssemblyReference.cache
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\obj\Release\LoadersAndLogic.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoadersAndLogic\obj\Release\LoadersAndLogic.pdb

@@ -1,0 +1,253 @@
+DEBUG 2017-05-04 19:20:13,399 127705ms LoginController        Login              - ****************
+DEBUG 2017-05-04 19:25:53,488 71159ms AdminController        Admin              - ****************
+ERROR 2017-05-04 19:25:53,631 71302ms AdminController        Admin              - Exception of type 'System.Exception' was thrown.
+DEBUG 2017-05-04 19:25:53,633 71304ms AdminController        Admin              -  Time Error Occured :5/4/2017 7:25:53 PM
+DEBUG 2017-05-04 19:25:53,634 71305ms AdminController        Admin              - ****************
+DEBUG 2017-05-04 19:37:06,306 18707ms AdminController        Admin              - ****************
+ERROR 2017-05-04 19:37:06,387 18789ms AdminController        Admin              - Exception of type 'System.Exception' was thrown.
+DEBUG 2017-05-04 19:37:06,389 18790ms AdminController        Admin              -  Time Error Occured :5/4/2017 7:37:06 PM
+DEBUG 2017-05-04 19:37:06,390 18792ms AdminController        Admin              - ****************
+DEBUG 2017-05-04 19:37:09,405 21807ms AdminController        Admin              - ****************
+ERROR 2017-05-04 19:37:09,407 21808ms AdminController        Admin              - Exception of type 'System.Exception' was thrown.
+DEBUG 2017-05-04 19:37:09,408 21809ms AdminController        Admin              -  Time Error Occured :5/4/2017 7:37:09 PM
+DEBUG 2017-05-04 19:37:09,409 21810ms AdminController        Admin              - ****************
+DEBUG 2017-05-05 15:47:57,296 280419ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 15:47:57,344 280467ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 15:47:57,344 280467ms AdminController        MyChart            -  Time Error Occured :5/5/2017 3:47:57 PM
+DEBUG 2017-05-05 15:47:57,344 280467ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 15:48:01,806 284929ms AdminController        Admin              - ****************
+ERROR 2017-05-05 15:48:01,806 284929ms AdminController        Admin              - Exception of type 'System.Exception' was thrown.
+DEBUG 2017-05-05 15:48:01,810 284933ms AdminController        Admin              -  Time Error Occured :5/5/2017 3:48:01 PM
+DEBUG 2017-05-05 15:48:01,810 284933ms AdminController        Admin              - ****************
+DEBUG 2017-05-05 15:48:18,221 301343ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 15:48:18,225 301347ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 15:48:18,225 301347ms AdminController        DispPie            -  Time Error Occured :5/5/2017 3:48:18 PM
+DEBUG 2017-05-05 15:48:18,229 301351ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 15:48:42,832 325954ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 15:48:42,836 325958ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 15:48:42,836 325958ms AdminController        DispPie            -  Time Error Occured :5/5/2017 3:48:42 PM
+DEBUG 2017-05-05 15:48:42,836 325958ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 15:50:09,755 412878ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 15:50:09,755 412878ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 15:50:09,759 412882ms AdminController        DispPie            -  Time Error Occured :5/5/2017 3:50:09 PM
+DEBUG 2017-05-05 15:50:09,759 412882ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 15:55:21,666 74674ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 15:55:21,726 74734ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 15:55:21,730 74738ms AdminController        DispPie            -  Time Error Occured :5/5/2017 3:55:21 PM
+DEBUG 2017-05-05 15:55:21,730 74738ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 16:22:53,590 82564ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 16:22:53,631 82605ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 16:22:53,632 82606ms AdminController        MyChart            -  Time Error Occured :5/5/2017 4:22:53 PM
+DEBUG 2017-05-05 16:22:53,632 82606ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 19:17:05,000 459776ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 19:17:05,052 459828ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:17:05,052 459828ms AdminController        MyChart            -  Time Error Occured :5/5/2017 7:17:05 PM
+DEBUG 2017-05-05 19:17:05,060 459836ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 19:17:05,100 459876ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 19:17:05,100 459876ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:17:05,100 459876ms AdminController        DispPie            -  Time Error Occured :5/5/2017 7:17:05 PM
+DEBUG 2017-05-05 19:17:05,100 459876ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 19:23:11,041 825817ms UserController         MyChart            - ****************
+ERROR 2017-05-05 19:23:11,045 825821ms UserController         MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:23:11,045 825821ms UserController         MyChart            -  Time Error Occured :5/5/2017 7:23:11 PM
+DEBUG 2017-05-05 19:23:11,045 825821ms UserController         MyChart            - ****************
+DEBUG 2017-05-05 19:30:07,005 1241782ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 19:30:07,005 1241782ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:30:07,009 1241786ms AdminController        MyChart            -  Time Error Occured :5/5/2017 7:30:07 PM
+DEBUG 2017-05-05 19:30:07,009 1241786ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 19:30:07,249 1242026ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 19:30:07,249 1242026ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:30:07,253 1242030ms AdminController        DispPie            -  Time Error Occured :5/5/2017 7:30:07 PM
+DEBUG 2017-05-05 19:30:07,257 1242034ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 19:42:41,383 1996159ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 19:42:41,383 1996159ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:42:41,383 1996159ms AdminController        MyChart            -  Time Error Occured :5/5/2017 7:42:41 PM
+DEBUG 2017-05-05 19:42:41,387 1996163ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 19:44:17,996 2092773ms UserController         MyChart            - ****************
+ERROR 2017-05-05 19:44:17,996 2092773ms UserController         MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:44:17,996 2092773ms UserController         MyChart            -  Time Error Occured :5/5/2017 7:44:17 PM
+DEBUG 2017-05-05 19:44:17,996 2092773ms UserController         MyChart            - ****************
+DEBUG 2017-05-05 19:44:18,080 2092857ms UserController         DispPie            - ****************
+ERROR 2017-05-05 19:44:18,080 2092857ms UserController         DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:44:18,080 2092857ms UserController         DispPie            -  Time Error Occured :5/5/2017 7:44:18 PM
+DEBUG 2017-05-05 19:44:18,084 2092861ms UserController         DispPie            - ****************
+DEBUG 2017-05-05 19:56:08,589 56459ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 19:56:08,685 56555ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 19:56:08,689 56559ms AdminController        DispPie            -  Time Error Occured :5/5/2017 7:56:08 PM
+DEBUG 2017-05-05 19:56:08,689 56559ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 20:31:01,530 178659ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 20:31:01,688 178817ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 20:31:01,690 178819ms AdminController        MyChart            -  Time Error Occured :5/5/2017 8:31:01 PM
+DEBUG 2017-05-05 20:31:01,691 178820ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 20:31:02,294 179423ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 20:31:02,297 179426ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 20:31:02,300 179429ms AdminController        DispPie            -  Time Error Occured :5/5/2017 8:31:02 PM
+DEBUG 2017-05-05 20:31:02,302 179431ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 20:31:37,578 214707ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 20:31:37,584 214713ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 20:31:37,586 214715ms AdminController        MyChart            -  Time Error Occured :5/5/2017 8:31:37 PM
+DEBUG 2017-05-05 20:31:37,587 214716ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 20:32:06,689 243818ms AdminController        Admin              - ****************
+ERROR 2017-05-05 20:32:06,692 243821ms AdminController        Admin              - Exception of type 'System.Exception' was thrown.
+DEBUG 2017-05-05 20:32:06,693 243822ms AdminController        Admin              -  Time Error Occured :5/5/2017 8:32:06 PM
+DEBUG 2017-05-05 20:32:06,695 243824ms AdminController        Admin              - ****************
+DEBUG 2017-05-05 20:32:10,799 247928ms AdminController        Admin              - ****************
+ERROR 2017-05-05 20:32:10,800 247929ms AdminController        Admin              - Exception of type 'System.Exception' was thrown.
+DEBUG 2017-05-05 20:32:10,802 247931ms AdminController        Admin              -  Time Error Occured :5/5/2017 8:32:10 PM
+DEBUG 2017-05-05 20:32:10,803 247932ms AdminController        Admin              - ****************
+DEBUG 2017-05-05 20:41:04,306 59555ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 20:41:04,488 59738ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 20:41:04,490 59740ms AdminController        MyChart            -  Time Error Occured :5/5/2017 8:41:04 PM
+DEBUG 2017-05-05 20:41:04,492 59742ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 20:41:04,619 59869ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 20:41:04,621 59871ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 20:41:04,623 59873ms AdminController        DispPie            -  Time Error Occured :5/5/2017 8:41:04 PM
+DEBUG 2017-05-05 20:41:04,624 59874ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 20:58:14,016 369597ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 20:58:14,232 369814ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 20:58:14,234 369816ms AdminController        MyChart            -  Time Error Occured :5/5/2017 8:58:14 PM
+DEBUG 2017-05-05 20:58:14,235 369817ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 20:58:14,328 369909ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 20:58:14,330 369911ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 20:58:14,331 369912ms AdminController        DispPie            -  Time Error Occured :5/5/2017 8:58:14 PM
+DEBUG 2017-05-05 20:58:14,332 369913ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 21:02:35,613 78529ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 21:02:35,760 78676ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 21:02:35,761 78677ms AdminController        MyChart            -  Time Error Occured :5/5/2017 9:02:35 PM
+DEBUG 2017-05-05 21:02:35,763 78679ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 21:02:35,899 78816ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 21:02:35,901 78818ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 21:02:35,903 78820ms AdminController        DispPie            -  Time Error Occured :5/5/2017 9:02:35 PM
+DEBUG 2017-05-05 21:02:35,904 78821ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 21:07:25,780 108457ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 21:07:25,943 108619ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 21:07:25,949 108626ms AdminController        MyChart            -  Time Error Occured :5/5/2017 9:07:25 PM
+DEBUG 2017-05-05 21:07:25,954 108631ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 21:19:12,004 127587ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 21:19:12,182 127766ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 21:19:12,186 127770ms AdminController        MyChart            -  Time Error Occured :5/5/2017 9:19:12 PM
+DEBUG 2017-05-05 21:19:12,188 127772ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 21:19:12,246 127830ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 21:19:12,248 127832ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 21:19:12,250 127834ms AdminController        DispPie            -  Time Error Occured :5/5/2017 9:19:12 PM
+DEBUG 2017-05-05 21:19:12,251 127835ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 21:22:13,339 65999ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 21:22:13,430 66090ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 21:22:13,432 66092ms AdminController        MyChart            -  Time Error Occured :5/5/2017 9:22:13 PM
+DEBUG 2017-05-05 21:22:13,433 66093ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 21:47:34,944 19575ms MvcApplication         Application_Error  - ****************
+ERROR 2017-05-05 21:47:35,019 19649ms MvcApplication         Application_Error  - The controller for path '/hsbdjbsa/fksjjfjsb/sajhgfjhb' was not found or does not implement IController.
+DEBUG 2017-05-05 21:47:35,020 19650ms MvcApplication         Application_Error  -  Time Error Occured :5/5/2017 9:47:35 PM
+DEBUG 2017-05-05 21:47:35,020 19650ms MvcApplication         Application_Error  - ****************
+DEBUG 2017-05-05 21:47:35,032 19662ms MvcApplication         Application_Error  - ****************
+ERROR 2017-05-05 21:47:35,033 19663ms MvcApplication         Application_Error  - The controller for path '/hsbdjbsa/fksjjfjsb/sajhgfjhb' was not found or does not implement IController.
+DEBUG 2017-05-05 21:47:35,034 19664ms MvcApplication         Application_Error  -  Time Error Occured :5/5/2017 9:47:35 PM
+DEBUG 2017-05-05 21:47:35,034 19664ms MvcApplication         Application_Error  - ****************
+DEBUG 2017-05-05 21:48:45,641 90272ms AdminController        MyChart            - ****************
+ERROR 2017-05-05 21:48:45,647 90278ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 21:48:45,648 90279ms AdminController        MyChart            -  Time Error Occured :5/5/2017 9:48:45 PM
+DEBUG 2017-05-05 21:48:45,650 90281ms AdminController        MyChart            - ****************
+DEBUG 2017-05-05 21:48:45,846 90476ms AdminController        DispPie            - ****************
+ERROR 2017-05-05 21:48:45,849 90479ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-05 21:48:45,851 90481ms AdminController        DispPie            -  Time Error Occured :5/5/2017 9:48:45 PM
+DEBUG 2017-05-05 21:48:45,852 90482ms AdminController        DispPie            - ****************
+DEBUG 2017-05-05 21:51:55,398 280028ms MvcApplication         Application_Error  - ****************
+ERROR 2017-05-05 21:51:55,400 280030ms MvcApplication         Application_Error  - A public action method 'About' was not found on controller 'FinalProject.Controllers.AdminController'.
+DEBUG 2017-05-05 21:51:55,400 280030ms MvcApplication         Application_Error  -  Time Error Occured :5/5/2017 9:51:55 PM
+DEBUG 2017-05-05 21:51:55,401 280031ms MvcApplication         Application_Error  - ****************
+DEBUG 2017-05-05 21:51:55,405 280035ms MvcApplication         Application_Error  - ****************
+ERROR 2017-05-05 21:51:55,406 280036ms MvcApplication         Application_Error  - A public action method 'About' was not found on controller 'FinalProject.Controllers.AdminController'.
+DEBUG 2017-05-05 21:51:55,406 280036ms MvcApplication         Application_Error  -  Time Error Occured :5/5/2017 9:51:55 PM
+DEBUG 2017-05-05 21:51:55,407 280037ms MvcApplication         Application_Error  - ****************
+DEBUG 2017-05-05 21:55:19,786 108048ms MvcApplication         Application_Error  - ****************
+ERROR 2017-05-05 21:55:19,883 108145ms MvcApplication         Application_Error  - The controller for path '/HGASVFHGVSA' was not found or does not implement IController.
+DEBUG 2017-05-05 21:55:19,884 108146ms MvcApplication         Application_Error  -  Time Error Occured :5/5/2017 9:55:19 PM
+DEBUG 2017-05-05 21:55:19,884 108146ms MvcApplication         Application_Error  - ****************
+DEBUG 2017-05-05 21:55:19,894 108156ms MvcApplication         Application_Error  - ****************
+ERROR 2017-05-05 21:55:19,895 108157ms MvcApplication         Application_Error  - The controller for path '/HGASVFHGVSA' was not found or does not implement IController.
+DEBUG 2017-05-05 21:55:19,896 108158ms MvcApplication         Application_Error  -  Time Error Occured :5/5/2017 9:55:19 PM
+DEBUG 2017-05-05 21:55:19,900 108162ms MvcApplication         Application_Error  - ****************
+DEBUG 2017-05-06 10:57:01,604 201013ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 10:57:01,787 201197ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 10:57:01,789 201199ms AdminController        MyChart            -  Time Error Occured :5/6/2017 10:57:01 AM
+DEBUG 2017-05-06 10:57:01,791 201201ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 10:57:01,961 201370ms AdminController        DispPie            - ****************
+ERROR 2017-05-06 10:57:01,963 201372ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 10:57:01,965 201374ms AdminController        DispPie            -  Time Error Occured :5/6/2017 10:57:01 AM
+DEBUG 2017-05-06 10:57:01,967 201376ms AdminController        DispPie            - ****************
+DEBUG 2017-05-06 11:00:48,814 428224ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:00:48,816 428226ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:00:48,817 428227ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:00:48 AM
+DEBUG 2017-05-06 11:00:48,818 428228ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:00:48,982 428391ms AdminController        DispPie            - ****************
+ERROR 2017-05-06 11:00:48,983 428392ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:00:48,984 428393ms AdminController        DispPie            -  Time Error Occured :5/6/2017 11:00:48 AM
+DEBUG 2017-05-06 11:00:48,985 428394ms AdminController        DispPie            - ****************
+DEBUG 2017-05-06 11:02:20,855 520264ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:02:20,856 520265ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:02:20,856 520265ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:02:20 AM
+DEBUG 2017-05-06 11:02:20,857 520266ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:04:57,433 676843ms MvcApplication         Application_Error  - ****************
+ERROR 2017-05-06 11:04:57,437 676847ms MvcApplication         Application_Error  - C:\Users\Sai Manideep Jinka\Desktop\FinalProject\FinalProject\Views\Admin\Details.cshtml(86): error CS1503: Argument 1: cannot convert from 'method group' to 'object'
+DEBUG 2017-05-06 11:04:57,437 676847ms MvcApplication         Application_Error  -  Time Error Occured :5/6/2017 11:04:57 AM
+DEBUG 2017-05-06 11:04:57,437 676847ms MvcApplication         Application_Error  - ****************
+DEBUG 2017-05-06 11:04:57,441 676851ms MvcApplication         Application_Error  - ****************
+ERROR 2017-05-06 11:04:57,441 676851ms MvcApplication         Application_Error  - C:\Users\Sai Manideep Jinka\Desktop\FinalProject\FinalProject\Views\Admin\Details.cshtml(86): error CS1503: Argument 1: cannot convert from 'method group' to 'object'
+DEBUG 2017-05-06 11:04:57,441 676851ms MvcApplication         Application_Error  -  Time Error Occured :5/6/2017 11:04:57 AM
+DEBUG 2017-05-06 11:04:57,441 676851ms MvcApplication         Application_Error  - ****************
+DEBUG 2017-05-06 11:05:18,013 697422ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:05:18,014 697423ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:05:18,014 697423ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:05:18 AM
+DEBUG 2017-05-06 11:05:18,014 697423ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:05:18,137 697546ms AdminController        DispPie            - ****************
+ERROR 2017-05-06 11:05:18,137 697546ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:05:18,138 697547ms AdminController        DispPie            -  Time Error Occured :5/6/2017 11:05:18 AM
+DEBUG 2017-05-06 11:05:18,138 697547ms AdminController        DispPie            - ****************
+DEBUG 2017-05-06 11:11:30,877 1070286ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:11:30,878 1070287ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:11:30,878 1070287ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:11:30 AM
+DEBUG 2017-05-06 11:11:30,879 1070288ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:11:30,937 1070346ms AdminController        DispPie            - ****************
+ERROR 2017-05-06 11:11:30,938 1070347ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:11:30,938 1070347ms AdminController        DispPie            -  Time Error Occured :5/6/2017 11:11:30 AM
+DEBUG 2017-05-06 11:11:30,938 1070347ms AdminController        DispPie            - ****************
+DEBUG 2017-05-06 11:17:21,408 1420818ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:17:21,409 1420819ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:17:21,410 1420820ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:17:21 AM
+DEBUG 2017-05-06 11:17:21,410 1420820ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:20:23,814 1603223ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:20:23,815 1603224ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:20:23,815 1603224ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:20:23 AM
+DEBUG 2017-05-06 11:20:23,816 1603225ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:20:23,913 1603323ms AdminController        DispPie            - ****************
+ERROR 2017-05-06 11:20:23,913 1603323ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:20:23,914 1603324ms AdminController        DispPie            -  Time Error Occured :5/6/2017 11:20:23 AM
+DEBUG 2017-05-06 11:20:23,914 1603324ms AdminController        DispPie            - ****************
+DEBUG 2017-05-06 11:38:13,668 2673078ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:38:13,681 2673090ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:38:13,682 2673092ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:38:13 AM
+DEBUG 2017-05-06 11:38:13,684 2673093ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:40:47,932 2827342ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:40:47,934 2827344ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:40:47,935 2827345ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:40:47 AM
+DEBUG 2017-05-06 11:40:47,936 2827346ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:40:48,201 2827610ms AdminController        DispPie            - ****************
+ERROR 2017-05-06 11:40:48,202 2827611ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:40:48,203 2827612ms AdminController        DispPie            -  Time Error Occured :5/6/2017 11:40:48 AM
+DEBUG 2017-05-06 11:40:48,204 2827613ms AdminController        DispPie            - ****************
+DEBUG 2017-05-06 11:54:04,777 763473ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:54:04,901 763598ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:54:04,903 763600ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:54:04 AM
+DEBUG 2017-05-06 11:54:04,906 763603ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:54:05,101 763797ms AdminController        DispPie            - ****************
+ERROR 2017-05-06 11:54:05,104 763800ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:54:05,109 763805ms AdminController        DispPie            -  Time Error Occured :5/6/2017 11:54:05 AM
+DEBUG 2017-05-06 11:54:05,111 763807ms AdminController        DispPie            - ****************
+DEBUG 2017-05-06 11:55:56,718 875414ms AdminController        MyChart            - ****************
+ERROR 2017-05-06 11:55:56,721 875417ms AdminController        MyChart            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:55:56,722 875418ms AdminController        MyChart            -  Time Error Occured :5/6/2017 11:55:56 AM
+DEBUG 2017-05-06 11:55:56,724 875420ms AdminController        MyChart            - ****************
+DEBUG 2017-05-06 11:55:56,991 875687ms AdminController        DispPie            - ****************
+ERROR 2017-05-06 11:55:56,992 875688ms AdminController        DispPie            - Object reference not set to an instance of an object.
+DEBUG 2017-05-06 11:55:56,993 875689ms AdminController        DispPie            -  Time Error Occured :5/6/2017 11:55:56 AM
+DEBUG 2017-05-06 11:55:56,994 875690ms AdminController        DispPie            - ****************

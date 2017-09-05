@@ -1,0 +1,25 @@
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\ErrorLogModel.dll.config
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\ErrorLogModel.pdb
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\EntityFramework.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\EntityFramework.xml
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\obj\Debug\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\obj\Debug\ErrorLogModel.pdb
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\log4net.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\ErrorLogModel\bin\Debug\log4net.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\ErrorLogModel.dll.config
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\ErrorLogModel.pdb
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\EntityFramework.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\log4net.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\EntityFramework.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\log4net.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\obj\Debug\ErrorLogModel.csprojResolveAssemblyReference.cache
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\obj\Debug\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\obj\Debug\ErrorLogModel.pdb

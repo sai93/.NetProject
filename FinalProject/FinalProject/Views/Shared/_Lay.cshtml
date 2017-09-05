@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/Webapp.css")
+    @Scripts.Render("~/bundles/jquery")
+    @*@Scripts.Render("~/bundles/bootstrap")*@
+    @RenderSection("scripts", required: false)
+    @Scripts.Render("~/Scripts/myscript.js")
+    @*@Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")*@
+
+</head>
+<body>
+
+    <div class="Shared">
+        <ul class="Nav">
+            <li>@Html.ActionLink("Home", "About", "About", new { area = "" }, new { @class = "navbar-brand" })</li>
+            @*<li>@Html.ActionLink("User", "User", "User", new { area = "" }, new { @class = "navbar-brand" })</li>
+            <li>@Html.ActionLink("Admin", "Admin", "Admin", new { area = "" }, new { @class = "navbar-brand" })</li>*@
+            @if (Session["PROFILEID"] == null)
+            {
+             <li>@Html.ActionLink("Login", "Login", "Login", new { area = "" }, new { @class = "navbar-brand" })</li>
+            <li>@Html.ActionLink("Register", "Register", "Login", new { area = "" }, new { @class = "navbar-brand" })</li>
+            }
+            else
+            {
+                @*<li>@Html.ActionLink("Change Password", "ChangePassword", "Login", new { area = "" }, new { @class = "navbar-brand" })</li>*@
+                if ((bool)Session["ISADMIN"])
+                {
+            <li>@Html.ActionLink(Session["FIRSTNAME"].ToString(), "Admin", "Admin", new { area = "" }, new { @class = "navbar-brand" })</li>
+                }
+                else
+                {
+                    <li>@Html.ActionLink(Session["FIRSTNAME"].ToString(), "User", "User", new { area = "" }, new { @class = "navbar-brand" })</li>
+                }
+             <li>@Html.ActionLink("Logout", "Logout", "Login", new { area = "" }, new { @class = "navbar-brand" })</li>
+            }
+        </ul>
+
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    
+
+</body>
+</html>

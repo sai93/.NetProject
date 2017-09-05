@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ErrorLogModel.Application>
+
+@{
+    ViewBag.Title = "ShowApplications";
+}
+
+<h2>ShowApplications</h2>
+
+<div class="Admin">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ApplicationName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreationTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Profile.FirstName)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActive)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreationTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Profile.FirstName)
+                </td>
+                <td>
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.ApplicationId }, new { @class = "but" }) |*@
+                    @Html.ActionLink("Details", "Details", new { id = item.ApplicationId }, new { @class = "but" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ApplicationId }, new { @class = "but" }) |
+                    @Html.ActionLink("Enable/Disable", "Enable", new { id = item.ApplicationId }, new { @class = "but" }) |
+                    @Html.ActionLink("AssignUser", "AssignUser", new { id = item.ApplicationId }, new { @class = "but" })
+
+                    
+                    
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<p>
+    @Html.ActionLink("Back", "Admin", new { area = "" }, new { @class = "but" })
+</p>
+

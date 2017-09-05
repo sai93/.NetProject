@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="sjinkaDataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Applications">
+          <Key>
+            <PropertyRef Name="ApplicationId" />
+          </Key>
+          <Property Name="ApplicationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ApplicationName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="CreaterId" Type="int" Nullable="false" />
+          <Property Name="CreationTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ErrorLogs">
+          <Key>
+            <PropertyRef Name="LogId" />
+          </Key>
+          <Property Name="LogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TypeId" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="Description" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="ApplicationId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LogTypes">
+          <Key>
+            <PropertyRef Name="TypeId" />
+          </Key>
+          <Property Name="TypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Types" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Profiles">
+          <Key>
+            <PropertyRef Name="ProfileId" />
+          </Key>
+          <Property Name="ProfileId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="IsAdmin" Type="bit" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="1000" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UsersAndApplications">
+          <Key>
+            <PropertyRef Name="ApplicationId" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="ApplicationId" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="TimeOfAssignment" Type="datetime" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Applicati__Creat__19DFD96B">
+          <End Role="Profiles" Type="Self.Profiles" Multiplicity="1" />
+          <End Role="Applications" Type="Self.Applications" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Profiles">
+              <PropertyRef Name="ProfileId" />
+            </Principal>
+            <Dependent Role="Applications">
+              <PropertyRef Name="CreaterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ErrorLogs__Appli__1DB06A4F">
+          <End Role="Applications" Type="Self.Applications" Multiplicity="1" />
+          <End Role="ErrorLogs" Type="Self.ErrorLogs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applications">
+              <PropertyRef Name="ApplicationId" />
+            </Principal>
+            <Dependent Role="ErrorLogs">
+              <PropertyRef Name="ApplicationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ErrorLogs__TypeI__1CBC4616">
+          <End Role="LogTypes" Type="Self.LogTypes" Multiplicity="1" />
+          <End Role="ErrorLogs" Type="Self.ErrorLogs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LogTypes">
+              <PropertyRef Name="TypeId" />
+            </Principal>
+            <Dependent Role="ErrorLogs">
+              <PropertyRef Name="TypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UsersAndA__Appli__208CD6FA">
+          <End Role="Applications" Type="Self.Applications" Multiplicity="1" />
+          <End Role="UsersAndApplications" Type="Self.UsersAndApplications" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applications">
+              <PropertyRef Name="ApplicationId" />
+            </Principal>
+            <Dependent Role="UsersAndApplications">
+              <PropertyRef Name="ApplicationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UsersAndA__UserI__2180FB33">
+          <End Role="Profiles" Type="Self.Profiles" Multiplicity="1" />
+          <End Role="UsersAndApplications" Type="Self.UsersAndApplications" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Profiles">
+              <PropertyRef Name="ProfileId" />
+            </Principal>
+            <Dependent Role="UsersAndApplications">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="sjinkaDataBaseModelStoreContainer">
+          <EntitySet Name="Applications" EntityType="Self.Applications" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ErrorLogs" EntityType="Self.ErrorLogs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LogTypes" EntityType="Self.LogTypes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Profiles" EntityType="Self.Profiles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UsersAndApplications" EntityType="Self.UsersAndApplications" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Applicati__Creat__19DFD96B" Association="Self.FK__Applicati__Creat__19DFD96B">
+            <End Role="Profiles" EntitySet="Profiles" />
+            <End Role="Applications" EntitySet="Applications" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ErrorLogs__Appli__1DB06A4F" Association="Self.FK__ErrorLogs__Appli__1DB06A4F">
+            <End Role="Applications" EntitySet="Applications" />
+            <End Role="ErrorLogs" EntitySet="ErrorLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ErrorLogs__TypeI__1CBC4616" Association="Self.FK__ErrorLogs__TypeI__1CBC4616">
+            <End Role="LogTypes" EntitySet="LogTypes" />
+            <End Role="ErrorLogs" EntitySet="ErrorLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UsersAndA__Appli__208CD6FA" Association="Self.FK__UsersAndA__Appli__208CD6FA">
+            <End Role="Applications" EntitySet="Applications" />
+            <End Role="UsersAndApplications" EntitySet="UsersAndApplications" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UsersAndA__UserI__2180FB33" Association="Self.FK__UsersAndA__UserI__2180FB33">
+            <End Role="Profiles" EntitySet="Profiles" />
+            <End Role="UsersAndApplications" EntitySet="UsersAndApplications" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="sjinkaDataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Application">
+          <Key>
+            <PropertyRef Name="ApplicationId" />
+          </Key>
+          <Property Name="ApplicationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicationName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="CreaterId" Type="Int32" Nullable="false" />
+          <Property Name="CreationTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Profile" Relationship="Self.FK__Applicati__Creat__19DFD96B" FromRole="Applications" ToRole="Profiles" />
+          <NavigationProperty Name="ErrorLogs" Relationship="Self.FK__ErrorLogs__Appli__1DB06A4F" FromRole="Applications" ToRole="ErrorLogs" />
+          <NavigationProperty Name="UsersAndApplications" Relationship="Self.FK__UsersAndA__Appli__208CD6FA" FromRole="Applications" ToRole="UsersAndApplications" />
+        </EntityType>
+        <EntityType Name="ErrorLog">
+          <Key>
+            <PropertyRef Name="LogId" />
+          </Key>
+          <Property Name="LogId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TypeId" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ApplicationId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Application" Relationship="Self.FK__ErrorLogs__Appli__1DB06A4F" FromRole="ErrorLogs" ToRole="Applications" />
+          <NavigationProperty Name="LogType" Relationship="Self.FK__ErrorLogs__TypeI__1CBC4616" FromRole="ErrorLogs" ToRole="LogTypes" />
+        </EntityType>
+        <EntityType Name="LogType">
+          <Key>
+            <PropertyRef Name="TypeId" />
+          </Key>
+          <Property Name="TypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Types" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="ErrorLogs" Relationship="Self.FK__ErrorLogs__TypeI__1CBC4616" FromRole="LogTypes" ToRole="ErrorLogs" />
+        </EntityType>
+        <EntityType Name="Profile">
+          <Key>
+            <PropertyRef Name="ProfileId" />
+          </Key>
+          <Property Name="ProfileId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IsAdmin" Type="Boolean" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="LastLoginDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Applications" Relationship="Self.FK__Applicati__Creat__19DFD96B" FromRole="Profiles" ToRole="Applications" />
+          <NavigationProperty Name="UsersAndApplications" Relationship="Self.FK__UsersAndA__UserI__2180FB33" FromRole="Profiles" ToRole="UsersAndApplications" />
+        </EntityType>
+        <EntityType Name="UsersAndApplication">
+          <Key>
+            <PropertyRef Name="ApplicationId" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="ApplicationId" Type="Int32" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="TimeOfAssignment" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Application" Relationship="Self.FK__UsersAndA__Appli__208CD6FA" FromRole="UsersAndApplications" ToRole="Applications" />
+          <NavigationProperty Name="Profile" Relationship="Self.FK__UsersAndA__UserI__2180FB33" FromRole="UsersAndApplications" ToRole="Profiles" />
+        </EntityType>
+        <Association Name="FK__Applicati__Creat__19DFD96B">
+          <End Role="Profiles" Type="Self.Profile" Multiplicity="1" />
+          <End Role="Applications" Type="Self.Application" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Profiles">
+              <PropertyRef Name="ProfileId" />
+            </Principal>
+            <Dependent Role="Applications">
+              <PropertyRef Name="CreaterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ErrorLogs__Appli__1DB06A4F">
+          <End Role="Applications" Type="Self.Application" Multiplicity="1" />
+          <End Role="ErrorLogs" Type="Self.ErrorLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applications">
+              <PropertyRef Name="ApplicationId" />
+            </Principal>
+            <Dependent Role="ErrorLogs">
+              <PropertyRef Name="ApplicationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UsersAndA__Appli__208CD6FA">
+          <End Role="Applications" Type="Self.Application" Multiplicity="1" />
+          <End Role="UsersAndApplications" Type="Self.UsersAndApplication" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Applications">
+              <PropertyRef Name="ApplicationId" />
+            </Principal>
+            <Dependent Role="UsersAndApplications">
+              <PropertyRef Name="ApplicationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ErrorLogs__TypeI__1CBC4616">
+          <End Role="LogTypes" Type="Self.LogType" Multiplicity="1" />
+          <End Role="ErrorLogs" Type="Self.ErrorLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LogTypes">
+              <PropertyRef Name="TypeId" />
+            </Principal>
+            <Dependent Role="ErrorLogs">
+              <PropertyRef Name="TypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UsersAndA__UserI__2180FB33">
+          <End Role="Profiles" Type="Self.Profile" Multiplicity="1" />
+          <End Role="UsersAndApplications" Type="Self.UsersAndApplication" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Profiles">
+              <PropertyRef Name="ProfileId" />
+            </Principal>
+            <Dependent Role="UsersAndApplications">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="sjinkaDataBaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Applications" EntityType="Self.Application" />
+          <EntitySet Name="ErrorLogs" EntityType="Self.ErrorLog" />
+          <EntitySet Name="LogTypes" EntityType="Self.LogType" />
+          <EntitySet Name="Profiles" EntityType="Self.Profile" />
+          <EntitySet Name="UsersAndApplications" EntityType="Self.UsersAndApplication" />
+          <AssociationSet Name="FK__Applicati__Creat__19DFD96B" Association="Self.FK__Applicati__Creat__19DFD96B">
+            <End Role="Profiles" EntitySet="Profiles" />
+            <End Role="Applications" EntitySet="Applications" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ErrorLogs__Appli__1DB06A4F" Association="Self.FK__ErrorLogs__Appli__1DB06A4F">
+            <End Role="Applications" EntitySet="Applications" />
+            <End Role="ErrorLogs" EntitySet="ErrorLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UsersAndA__Appli__208CD6FA" Association="Self.FK__UsersAndA__Appli__208CD6FA">
+            <End Role="Applications" EntitySet="Applications" />
+            <End Role="UsersAndApplications" EntitySet="UsersAndApplications" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ErrorLogs__TypeI__1CBC4616" Association="Self.FK__ErrorLogs__TypeI__1CBC4616">
+            <End Role="LogTypes" EntitySet="LogTypes" />
+            <End Role="ErrorLogs" EntitySet="ErrorLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UsersAndA__UserI__2180FB33" Association="Self.FK__UsersAndA__UserI__2180FB33">
+            <End Role="Profiles" EntitySet="Profiles" />
+            <End Role="UsersAndApplications" EntitySet="UsersAndApplications" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="sjinkaDataBaseModelStoreContainer" CdmEntityContainer="sjinkaDataBaseEntities">
+          <EntitySetMapping Name="Applications">
+            <EntityTypeMapping TypeName="sjinkaDataBaseModel.Application">
+              <MappingFragment StoreEntitySet="Applications">
+                <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+                <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreaterId" ColumnName="CreaterId" />
+                <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ErrorLogs">
+            <EntityTypeMapping TypeName="sjinkaDataBaseModel.ErrorLog">
+              <MappingFragment StoreEntitySet="ErrorLogs">
+                <ScalarProperty Name="LogId" ColumnName="LogId" />
+                <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LogTypes">
+            <EntityTypeMapping TypeName="sjinkaDataBaseModel.LogType">
+              <MappingFragment StoreEntitySet="LogTypes">
+                <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+                <ScalarProperty Name="Types" ColumnName="Types" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Profiles">
+            <EntityTypeMapping TypeName="sjinkaDataBaseModel.Profile">
+              <MappingFragment StoreEntitySet="Profiles">
+                <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UsersAndApplications">
+            <EntityTypeMapping TypeName="sjinkaDataBaseModel.UsersAndApplication">
+              <MappingFragment StoreEntitySet="UsersAndApplications">
+                <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="TimeOfAssignment" ColumnName="TimeOfAssignment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

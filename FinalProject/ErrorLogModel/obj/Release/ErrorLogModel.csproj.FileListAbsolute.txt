@@ -1,0 +1,14 @@
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\ErrorLogModel.dll.config
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\ErrorLogModel.pdb
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\EntityFramework.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\log4net.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\Newtonsoft.Json.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\EntityFramework.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\log4net.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\bin\Release\Newtonsoft.Json.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\obj\Release\ErrorLogModel.csprojResolveAssemblyReference.cache
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\obj\Release\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\ErrorLogModel\obj\Release\ErrorLogModel.pdb

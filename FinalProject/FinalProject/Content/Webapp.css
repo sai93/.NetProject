@@ -1,0 +1,161 @@
+﻿body {
+    font-family:Calibri;
+    background-color: #DEEDAF;
+
+}
+.Nav{
+    background-color: green;
+     padding-left: 0  !important;
+     color: white;
+     padding: 15px 15px ; 
+}
+.Shared
+li{
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+  /*border: 2px solid black;
+  border-radius: 10px;*/
+  margin-right: 60px;
+ 
+
+  
+}
+
+.Admin
+.link{
+    text-decoration:none;
+    color: blue;
+   
+
+}
+.Admin
+.link:hover {
+    text-decoration:underline;
+    color: green;
+    
+
+}
+.navbar-brand {
+   float:left;
+  font-size: 22px ;
+  text-decoration: none;
+  color: white;
+  
+
+}
+
+.but {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration:none;
+    background-color: forestgreen;
+    color: aliceblue;
+    float:none;
+
+}
+
+.but:hover {
+    background-color: darkgreen;
+
+}
+
+.Admin
+li{
+ text-decoration: none;
+  margin-right: 60px;
+
+}
+
+.Admin
+table{
+    border-collapse: collapse;
+    border: 2px solid green;
+    width:auto;
+
+    
+}
+
+.Admin
+table td{
+    border: 1px solid green;
+
+}
+.Admin
+table th{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+
+}
+
+
+.Admin
+datatable{
+    border-collapse: collapse;
+    border: 2px solid green;
+    width:auto;
+
+    
+}
+
+.Admin
+datatable td{
+    border: 1px solid green;
+
+}
+.Admin
+datatable th{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.Admin
+#table{
+    float:left;
+}
+
+.Showing
+table{
+    border-collapse: collapse;
+    border: 2px solid green;
+    width:auto;
+
+}
+
+.Showing
+table td{
+    border: 1px solid green;
+
+}
+.Showing
+table th{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+
+}
+
+h2{
+    
+    color: green;
+    width:inherit;
+
+}
+
+.navbar-brand:hover{
+color: black;
+
+/*background-color: black;*/
+}
+
+.Home
+ul{
+    text-decoration-style: none;
+}
+

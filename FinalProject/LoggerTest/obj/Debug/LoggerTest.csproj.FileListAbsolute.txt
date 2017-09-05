@@ -1,0 +1,47 @@
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\ApplicationInsights.config
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\csc.exe
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\vbc.exe
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\LoggerTest.exe.config
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\LoggerTest.exe
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\LoggerTest.pdb
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\DLLLibrary.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\EntityFramework.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\DLLLibrary.pdb
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\ErrorLogModel.pdb
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\EntityFramework.xml
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\obj\Debug\LoggerTest.csprojResolveAssemblyReference.cache
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\obj\Debug\LoggerTest.exe
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\obj\Debug\LoggerTest.pdb
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\log4net.dll
+C:\Users\Sai Manideep Jinka\Desktop\Working_Proj\FinalProject (5)\FinalProject\LoggerTest\bin\Debug\log4net.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\LoggerTest.exe
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\DLLLibrary.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\ErrorLogModel.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\EntityFramework.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\log4net.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\DLLLibrary.pdb
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\EntityFramework.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\log4net.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\ErrorLogModel.pdb
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\obj\Debug\LoggerTest.csprojResolveAssemblyReference.cache
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\obj\Debug\LoggerTest.exe
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\obj\Debug\LoggerTest.pdb
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\LoggerTest.exe.config
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\LoggerTest\bin\Debug\LoggerTest.pdb

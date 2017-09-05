@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2>Admin</h2>
+<div class="Admin">
+    <table>
+        <tr>
+            <th>
+                Admin Services
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <h4>Applications</h4>
+                <ul>
+                    <li>@Html.ActionLink("Show Applications", "ShowApplications", new { area = "" }, new { @class = "link" })</li>
+                    <li>@Html.ActionLink("Create New App", "Create", new { area = "" }, new { @class = "link" })</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Users</h4>
+                <ul>
+                    <li>@Html.ActionLink("Profiles", "Users", new { area = "" }, new { @class = "link" })</li>
+
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+    
+

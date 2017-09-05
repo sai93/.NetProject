@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ErrorLogModel.Profile>
+
+@{
+    ViewBag.Title = "AssignUser";
+}
+
+<h2>AssignUser</h2>
+
+<div class="Admin">
+    <table class="table">
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Assign", "Assign", new { id = item.ProfileId }, new { @class = "but" })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+<p>
+    @Html.ActionLink("Back", "ShowApplications", new { area = "" }, new { @class = "but" })
+</p>

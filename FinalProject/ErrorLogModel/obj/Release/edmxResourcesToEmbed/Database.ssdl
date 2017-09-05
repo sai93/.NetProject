@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sjinkaDataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Applications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ApplicationName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreaterId" Type="int" Nullable="false" />
+    <Property Name="CreationTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ErrorLogs">
+    <Key>
+      <PropertyRef Name="LogId" />
+    </Key>
+    <Property Name="LogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+    <Property Name="ApplicationId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LogTypes">
+    <Key>
+      <PropertyRef Name="TypeId" />
+    </Key>
+    <Property Name="TypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Types" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Profiles">
+    <Key>
+      <PropertyRef Name="ProfileId" />
+    </Key>
+    <Property Name="ProfileId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsAdmin" Type="bit" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="1000" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UsersAndApplications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="TimeOfAssignment" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Applicati__Creat__19DFD96B">
+    <End Role="Profiles" Type="Self.Profiles" Multiplicity="1" />
+    <End Role="Applications" Type="Self.Applications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profiles">
+        <PropertyRef Name="ProfileId" />
+      </Principal>
+      <Dependent Role="Applications">
+        <PropertyRef Name="CreaterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ErrorLogs__Appli__1DB06A4F">
+    <End Role="Applications" Type="Self.Applications" Multiplicity="1" />
+    <End Role="ErrorLogs" Type="Self.ErrorLogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="ErrorLogs">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ErrorLogs__TypeI__1CBC4616">
+    <End Role="LogTypes" Type="Self.LogTypes" Multiplicity="1" />
+    <End Role="ErrorLogs" Type="Self.ErrorLogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LogTypes">
+        <PropertyRef Name="TypeId" />
+      </Principal>
+      <Dependent Role="ErrorLogs">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UsersAndA__Appli__208CD6FA">
+    <End Role="Applications" Type="Self.Applications" Multiplicity="1" />
+    <End Role="UsersAndApplications" Type="Self.UsersAndApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="UsersAndApplications">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UsersAndA__UserI__2180FB33">
+    <End Role="Profiles" Type="Self.Profiles" Multiplicity="1" />
+    <End Role="UsersAndApplications" Type="Self.UsersAndApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profiles">
+        <PropertyRef Name="ProfileId" />
+      </Principal>
+      <Dependent Role="UsersAndApplications">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sjinkaDataBaseModelStoreContainer">
+    <EntitySet Name="Applications" EntityType="Self.Applications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ErrorLogs" EntityType="Self.ErrorLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LogTypes" EntityType="Self.LogTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profiles" EntityType="Self.Profiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsersAndApplications" EntityType="Self.UsersAndApplications" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Applicati__Creat__19DFD96B" Association="Self.FK__Applicati__Creat__19DFD96B">
+      <End Role="Profiles" EntitySet="Profiles" />
+      <End Role="Applications" EntitySet="Applications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ErrorLogs__Appli__1DB06A4F" Association="Self.FK__ErrorLogs__Appli__1DB06A4F">
+      <End Role="Applications" EntitySet="Applications" />
+      <End Role="ErrorLogs" EntitySet="ErrorLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ErrorLogs__TypeI__1CBC4616" Association="Self.FK__ErrorLogs__TypeI__1CBC4616">
+      <End Role="LogTypes" EntitySet="LogTypes" />
+      <End Role="ErrorLogs" EntitySet="ErrorLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UsersAndA__Appli__208CD6FA" Association="Self.FK__UsersAndA__Appli__208CD6FA">
+      <End Role="Applications" EntitySet="Applications" />
+      <End Role="UsersAndApplications" EntitySet="UsersAndApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UsersAndA__UserI__2180FB33" Association="Self.FK__UsersAndA__UserI__2180FB33">
+      <End Role="Profiles" EntitySet="Profiles" />
+      <End Role="UsersAndApplications" EntitySet="UsersAndApplications" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

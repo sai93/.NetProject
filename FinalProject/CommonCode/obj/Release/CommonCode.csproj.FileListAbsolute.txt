@@ -1,0 +1,9 @@
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\bin\Release\CommonCode.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\bin\Release\CommonCode.pdb
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\bin\Release\log4net.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\bin\Release\Newtonsoft.Json.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\bin\Release\log4net.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\bin\Release\Newtonsoft.Json.xml
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\obj\Release\CommonCode.csprojResolveAssemblyReference.cache
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\obj\Release\CommonCode.dll
+C:\Users\Sai Manideep Jinka\Desktop\FinalProject\CommonCode\obj\Release\CommonCode.pdb
